@@ -21,7 +21,7 @@ The accuracy is decreased as the mean accuracy
 within streams was only 0.88.
 ![alt text](https://github.com/khadija267/AI-for-Cyber-Security/blob/main/images/1.dynamic.png?raw=true)
 Comparing between mean and
-current metrics results:
+current metrics results:<br>
 ![alt text](https://github.com/khadija267/AI-for-Cyber-Security/blob/main/images/2_dynamic.png?raw=true)
 
 2. IOT Botnet Attack Detection:
