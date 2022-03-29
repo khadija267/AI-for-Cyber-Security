@@ -53,7 +53,7 @@ static solution.<br>
 We except that the static solution is better than the dynamic one, as the model is
 being confused from dynamic solutions drawbacks such as the drifting concept.
 Streaming data is tricky to deal with and needs more intelligent solutions than the
-traditional machine learning solutions.</p>
+traditional machine learning solutions.</p><br>
 ## 2. Network Attack Detection:
 
 Applying clustering and binary classification by classic and ensemble supervised algorithms on network data.
