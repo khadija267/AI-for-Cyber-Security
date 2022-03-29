@@ -19,7 +19,7 @@ Adaptive Learning using HoeffdingTreeClassifier on the data streamed using
 skmultiflow library.<br>
 The accuracy is decreased as the mean accuracy
 within streams was only 0.88.
-![alt text](https://github.com/khadija267/AI-for-Cyber-Security/blob/main/images/1.dynamic.png?raw=true)
+![alt text](https://github.com/khadija267/AI-for-Cyber-Security/blob/main/images/1.dynamic.png?raw=true)<br>
 Comparing between mean and
 current metrics results:<br>
 ![alt text](https://github.com/khadija267/AI-for-Cyber-Security/blob/main/images/2_dynamic.png?raw=true)
