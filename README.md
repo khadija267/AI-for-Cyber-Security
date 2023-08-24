@@ -1,8 +1,20 @@
 # AI for Cyber Security
  Intelligent solutions for cyber security probelms.
+
+## 1. Time Series Network Anomaly Detection:
+NetT is a network data with 9 different anomaly classes.
+We got 79 columns after getting rid of the unncessary classes such as the port number and ip addresses.
+### Dimensionality Reduction:
+We used a Variational Autoencoder (VAE) in PyTorch.
+Model Architecture:
+fc1 is the first hidden layer, with input_dim input neurons and hidden_dim output neurons.
+fc21 is the mean layer, with hidden_dim input neurons and latent_dim output neurons. <br>
+This layer outputs the mean values of the Gaussian distribution over the latent space.
+fc22 is the log-variance layer, with hidden_dim input neurons and latent_dim output neurons.<br>
+ This layer outputs the log-variances of the Gaussian distribution over the latent space.The output of fc21 and fc22 are then combined using the reparameterization trick(
+
  
- 
-## 1. Kafka Dynamic Intrusion Detector
+## 2. Kafka Dynamic Intrusion Detector
 A comparison between static learning and adaptive learning using kafka server.
 
 1. Cicids Network Intrusion Detection:
@@ -53,7 +65,7 @@ We except that the static solution is better than the dynamic one, as the model 
 being confused from dynamic solutions drawbacks such as the drifting concept.
 Streaming data is tricky to deal with and needs more intelligent solutions than the
 traditional machine learning solutions.<br>
-## 2. Network Attack Detection:
+## 3. Network Attack Detection:
 
 Applying clustering and binary classification by classic and ensemble supervised algorithms on network data.
 We got AUC of approximately 1 and +98% accuracy.
